@@ -307,6 +307,10 @@
             {
               "path": "/drawer",
               "title": "Drawer 抽屉"
+            },
+            {
+              "path": "/ymq",
+              "title": "Ymq MQ组件"
             }
           ]
         }
@@ -621,6 +625,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/ymq",
+              "title": "Ymq"
             }
           ]
         }
@@ -935,6 +943,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/ymq",
+              "title": "Ymq"
             }
           ]
         }
@@ -1249,6 +1261,10 @@
             {
               "path": "/drawer",
               "title": "Drawer"
+            },
+            {
+              "path": "/ymq",
+              "title": "Ymq"
             }
           ]
         }
