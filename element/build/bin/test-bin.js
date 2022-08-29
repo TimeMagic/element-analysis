@@ -2,11 +2,12 @@
  * @Author       : ymq
  * @Date         : 2022-08-26 15:21:21
  * @LastEditors  : Do not edit
- * @LastEditTime : 2022-08-26 17:28:16
+ * @LastEditTime : 2022-08-29 10:31:15
  * @Description  : Do not edit
  * @FilePath     : \element-analysis\element\build\bin\test-bin.js
  */
 const fileSave = require("file-save");
+const path = require("path");
 
 process.on("exit", () => {
   console.log();
@@ -17,6 +18,10 @@ if (!argu) {
   console.error("组件名称必填, Please component name");
   process.exit(1);
 }
+
+const cwdPath = process.cwd();
+const indexPath = path.resolve(cwdPath, 'src/index.js');
+console.log(indexPath);
 
 const template = `<template>
     <div>component</div>
